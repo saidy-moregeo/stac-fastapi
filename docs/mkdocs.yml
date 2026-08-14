@@ -43,6 +43,15 @@ nav:
             - client: api/stac_fastapi/extensions/aggregation/client.md
             - request: api/stac_fastapi/extensions/aggregation/request.md
             - types: api/stac_fastapi/extensions/aggregation/types.md
+          - ai_search:
+            - module: api/stac_fastapi/extensions/ai_search/index.md
+            - ai_search: api/stac_fastapi/extensions/ai_search/ai_search.md
+            - request: api/stac_fastapi/extensions/ai_search/request.md
+            - types: api/stac_fastapi/extensions/ai_search/types.md
+            - translator: api/stac_fastapi/extensions/ai_search/translator.md
+            - merge: api/stac_fastapi/extensions/ai_search/merge.md
+            - settings: api/stac_fastapi/extensions/ai_search/settings.md
+            - errors: api/stac_fastapi/extensions/ai_search/errors.md
           - bulk_transactions:
             - module: api/stac_fastapi/extensions/bulk_transactions/index.md
             - bulk_transactions: api/stac_fastapi/extensions/bulk_transactions/bulk_transactions.md

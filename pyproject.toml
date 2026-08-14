@@ -37,6 +37,7 @@ dev = [
     "pytest-benchmark",
     "pre-commit",
     "httpx2",
+    "limits>=3.6",
     "requests",
     "prometheus-fastapi-instrumentator>=8.1.0",
 ]

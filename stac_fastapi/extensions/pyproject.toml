@@ -36,6 +36,12 @@ dependencies = [
     "stac-fastapi.api~=6.4",
 ]
 
+[project.optional-dependencies]
+ai-search = [
+    "pydantic-ai-slim>=0.2,<2.0",
+    "limits>=3.6",
+]
+
 [dependency-groups]
 dev = [
         "pytest",

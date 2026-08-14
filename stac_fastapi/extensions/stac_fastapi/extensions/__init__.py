@@ -1,6 +1,12 @@
 """stac_api.extensions module."""
 
 from .aggregation import AggregationExtension
+from .ai_search import (
+    AISearchConformanceClasses,
+    AISearchExtension,
+    AISearchPromptExtension,
+    AISearchSettings,
+)
 from .bulk_transactions.bulk_transactions import BulkTransactionExtension
 from .collection_search import CollectionSearchExtension, CollectionSearchPostExtension
 from .fields import FieldsExtension
@@ -21,6 +27,10 @@ from .sort import SortExtension
 from .transaction import TransactionExtension
 
 __all__ = (
+    "AISearchConformanceClasses",
+    "AISearchExtension",
+    "AISearchPromptExtension",
+    "AISearchSettings",
     "AggregationExtension",
     "BulkTransactionExtension",
     "FieldsExtension",

@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+
+## [6.6.0] - 2026-08-14
+
+### Added
+
+- Added optional **AI Search extension**: `GET /ai-search` plus a natural-language `prompt`
+  parameter on `/search`, `/collections`, and `/collections/{collection_id}/items`,
+  implementing the [STAC API AI-Search extension](https://github.com/saidy-moregeo/stac-api-ai-search-extension).
+  Install with `pip install stac-fastapi.extensions[ai-search]`.
+
 ## [6.5.0] - 2026-08-03
 
 ### Added
